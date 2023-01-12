@@ -1,9 +1,42 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "todos": [
+    {
+      "writer": "작성자이름",
+      "title": "제목이름",
+      "body": "내용sdsds입니다",
+      "id": 1
+    },
+    {
+      "writer": "작성자임",
+      "title": "제목임",
+      "body": "내용임",
+      "id": 2
+    },
+    {
+      "writer": "dsd",
+      "title": "sad",
+      "body": "smahlksdhsaiodh",
+      "id": 3
+    },
+    {
+      "writer": "작성자",
+      "title": "제목입력",
+      "body": "내용입력",
+      "id": 4
+    },
+    {
+      "writer": "기록하고",
+      "title": "제목쓰고",
+      "body": "기록하기\n",
+      "id": 5
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    {
+      "todoId": "5",
+      "username": "다시 1번",
+      "content": "1번입니다",
+      "id": 1
+    }
+  ]
 }
